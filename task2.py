@@ -15,8 +15,7 @@ def choose():
     return pick 
   
   
-# Function for shuffling the 
-# characters of the chosen word. 
+# Function for shuffling characters of the chosen word. 
 def jumble(word): 
     # sample() method suffling the characters of the word 
     random_word = random.sample(word, len(word)) 
