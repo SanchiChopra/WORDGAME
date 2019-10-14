@@ -4,7 +4,7 @@ import random
 # function for choosing random word. 
 def choose(): 
     # list of word 
-    words = ['planetoftheearth', 'gameofthrones', 'strangerthings', 'dexter', 
+    words = ['planetoftheapes', 'gameofthrones', 'strangerthings', 'dexter', 
              'breakingbad', 'arrow', 'daredevil', 'sherlock','life', 
              'flash', 'cosmos', 'blackmirror','birdbox','sacredgames','rickandmorty','narcos','thewire','deathnote','naruto','dragonballz'] 
   
@@ -83,7 +83,6 @@ def play():
             # checking ans is equal to picked_word or not 
             if ans == picked_word: 
   
-                # incremented by 1 
                 pp1 += 1
   
                 print('Your score is :', pp1) 
@@ -151,8 +150,6 @@ def play():
                 thank(p1name, p2name, pp1, pp2) 
                 break
   
-  
-# Driver code 
 #if _name_ == "_main_": 
       
     # play() function calling 
