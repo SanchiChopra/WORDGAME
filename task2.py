@@ -4,9 +4,35 @@ import random
 # function for choosing random word. 
 def choose(): 
     # list of word 
-    words = ['planetoftheapes', 'gameofthrones', 'strangerthings', 'dexter', 
-             'breakingbad', 'arrow', 'daredevil', 'sherlock','life', 
-             'flash', 'cosmos', 'blackmirror','birdbox','sacredgames','rickandmorty','narcos','thewire','deathnote','naruto','dragonballz'] 
+    words = ['planetoftheapes',
+             'gameofthrones',
+             'strangerthings',
+             'dexter', 
+             'breakingbad',
+             'arrow',
+             'daredevil',
+             'sherlock',
+             'life', 
+             'flash',
+             'cosmos',
+             'blackmirror',
+             'birdbox',
+             'sacredgames',
+             'rickandmorty',
+             'narcos',
+             'thewire',
+             'deathnote',
+             'naruto',
+             'dragonballz',
+             'riverdale',
+             'greysanatomy',
+             'euphoria',
+             'ravenshome',
+             'youngsheldon',
+             'thebigbangtheory',
+             'friends',
+             'americanhorrorstories'
+             ] 
   
     # choice() method randomly choose 
     #randomising function 
@@ -106,7 +132,8 @@ def play():
   
                 # checking the c is equal to 0 or not 
                 # if c is equal to 0 then break out 
-                # of the while loop o/w keep looping. 
+                # of the while loop o/w keep looping.
+                
                 if c == 0: 
                     # thank() function calling 
                     thank(p1name, p2name, pp1, pp2) 
