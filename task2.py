@@ -9,7 +9,7 @@ def choose():
              'flash', 'cosmos', 'blackmirror','birdbox','sacredgames','rickandmorty','narcos','thewire','deathnote','naruto','dragonballz'] 
   
     # choice() method randomly choose 
-    # any word from the list. 
+    #randomising function 
     pick = random.choice(words) 
   
     return pick 
@@ -26,7 +26,7 @@ def jumble(word):
     return jumbled 
   
   
-# Fucntion for showing final score. 
+# Fucntion for final score. 
 def thank(p1n, p2n, p1, p2): 
     print(p1n, 'Your score is :', p1) 
     print(p2n, 'Your score is :', p2) 
